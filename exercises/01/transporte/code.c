@@ -30,10 +30,7 @@ int main() {
     scanf("%d %d %d", &a, &b, &c);
     scanf("%d %d %d", &x, &y, &z);
 
-    int container = a * b;
-    int ship = x * y;
-
-    int fits = (ship / container) * (z / c);
+    int fits = (x / a) * (y / b) * (z / c);
     printf("%d\n", fits);
 
     return 0;
