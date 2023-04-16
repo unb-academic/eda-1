@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "eda-1"
+version = "0.0.0"
+description = "Repositório contendo as resoluções das listas de exercícios de Estruturas de Dados 1."
+authors = ["kyomi <personal@kyomi.codes>"]
+readme = "README.md"
+packages = [{include = "eda_1"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.2.2"
+commitizen = "^2.42.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
