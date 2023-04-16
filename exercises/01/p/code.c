@@ -41,7 +41,7 @@ int main() {
 
     for (i = 0; i < n; i++)
         if (v[i] % 2 != 0)
-            printf("%d ", i);        
+            printf("%d ", i);
 
     printf("\n");
     return 0;
